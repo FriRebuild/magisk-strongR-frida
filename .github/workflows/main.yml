@@ -33,4 +33,3 @@ jobs:
         with:
           artifacts: build/*.zip,build/updater.json
           tag: "${{ env.NEW_TAG }}"
-          body: https://github.com/hzzheyang/strongR-frida-android/releases
